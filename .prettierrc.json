@@ -1,0 +1,15 @@
+{
+  "endOfLine": "lf",
+  "proseWrap": "always",
+  "quoteProps": "as-needed",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "importOrderSeparation": true,
+  "importOrder": ["^[.#/]"],
+  "bracketSpacing": true,
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
+}
